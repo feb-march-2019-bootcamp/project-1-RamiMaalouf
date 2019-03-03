@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<h1 id="title" style="color: rgb(38, 121, 38); font-family: monospace"> Survey Form </h1>
+<body>
+<style>
+      body{
+            background-color: rgb(235, 233, 155); text-align: center;
+            font-weight: bolder; font-size: 22px; font-family: Arial, Helvetica, sans-serif;
+      }
+</style>
+<form  id="survey-form">
+<p>Let us know how we can improve freeCodeCamp </p>
+<div><label id="name-label">* Name: </label>
+        <input id="name" type="text"  placeholder="Enter your Name" required></div>
+<p></p>
+<div><label id="email-label">* Email:</label>
+      <input id="email" type="email" placeholder="Enter your Email" required ></div>
+    <p></p>
+<div><label id="number-label">* Age: </label>
+      <input id="number" type="number"  placeholder="Age" min="1" max="110" required></div>
+<p></p>
+<label >Which option best describes your current role?</label>
 
+                <select >
+                    <option value="" disabled>Select an option</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Laerner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+<P></P>
+* How likely is that you would recommend freeCodeCamp to a friend?
+<p></p>
+ <p><label for="Definitely">
+    <input id="Definitely" type="radio" name="Definitely-Maybe-Not sure">Definitely
+
+</label></p>
+
+<p><label for="Maybe">
+        <input id="Maybe" type="radio" name="Definitely-Maybe-Not sure">Maybe
+    </label></p>
+    <p><label for="Not sure">
+            <input id="Not sure" type="radio" name="Definitely-Maybe-Not sure">Not sure
+        </label></p>
+        <p></p>
+        Things that should be improved in the future
+        (Check all that apply): 
+          <p><label for="Front-end Projects">
+              <input id="Front-end Projects" type="checkbox" value="improved">
+              Front-end Projects
+        </label></p>
+
+        <p><label for="Back-end Projects">
+                <input id="Back-end Projects" type="checkbox" value="improved">
+                Back-end Projects
+          </label></p>
+
+        <p><label for="Data Visualization">
+                <input id="Data Visualization" type="checkbox" value="improved">
+                Data Visualization
+          </label></p>
+          
+          <p><label for="Challenges">
+                <input id="Challenges" type="checkbox" value="improved">
+                Challenges
+          </label></p>
+
+          <p><label for="Open Source Community">
+                <input id="Open Source Community" type="checkbox" value="improved">
+                Open Source Community
+          </label></p>
+
+          <p><label for="Gitter help rooms">
+                <input id="Gitter help rooms" type="checkbox" value="improved">
+                Gitter help rooms
+          </label></p>
+
+          <p><label for="Videos">
+                <input id="Videos" type="checkbox" value="improved">
+                Videos
+          </label></p>
+
+          <p><label for="City Meetups">
+                <input id="City Meetups" type="checkbox" value="improved">
+                City Meetups
+          </label></p>
+
+          <p><label for="Wiki">
+                <input id="Wiki" type="checkbox" value="improved">
+                Wiki
+          </label></p>
+
+          <p><label for="Forum">
+                <input id="Forum" type="checkbox" value="improved">
+                Forum
+          </label></p>
+
+          <p><label for="Additional Courses">
+                <input id="Additional Courses" type="checkbox" value="improved">
+                Additional Courses
+          </label></p>
+
+          Any Comments or Suggestions?
+<textarea class="comment"  placeholder="Enter your comment here..."></textarea>
+<button type="submit">Sumbit</button>
+</form>
+</body>
+</html>
+    
+</body>
+</html>
